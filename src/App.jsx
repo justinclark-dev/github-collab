@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
+import Nav from "./components/Nav/Nav"
+
 function App() {
   const BASE_URL = `https://swapi.dev/api/`;
 
@@ -18,7 +20,7 @@ function App() {
 
   return (
     <>
-
+      <Nav />
     </>
   )
 }
