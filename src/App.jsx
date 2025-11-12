@@ -4,6 +4,7 @@ import './App.css'
 import Nav from "./components/Nav/Nav"
 import Films from './components/Films/Films';
 import Planets from './components/Planets/Planets'
+import Species from './components/Species/Species';
 
 function App() {
   
@@ -12,7 +13,8 @@ function App() {
       <Nav />
 
       {/* <Films /> */}
-      <Planets />
+      {/* <Planets /> */}
+      <Species/>
     </>
   )
 }
