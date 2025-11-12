@@ -3,8 +3,6 @@ import './App.css'
 
 function App() {
   const BASE_URL = `https://swapi.dev/api/`;
-  // const [count, setCount] = useState(0)
-
 
     useEffect(() => {
     const getData = async () => {
