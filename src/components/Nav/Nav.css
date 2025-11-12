@@ -1,0 +1,26 @@
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: .5rem 2rem;
+  border-bottom: 1px solid #44526350;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+nav ul button {
+  padding: .5rem 1rem .6rem;
+  background-color: #2e3741;
+  border: 1px solid #445263;
+  color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav ul button:hover {
+  background-color: #3c4958;
+}
