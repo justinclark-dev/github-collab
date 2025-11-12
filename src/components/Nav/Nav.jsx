@@ -1,15 +1,15 @@
 import "./Nav.css"
 
-const Nav = () => {
+const Nav = ({ handlePageNavigation }) => {
 
   return (
     <nav>
       <h2>Starwars API</h2>
       <ul>
-        <li><button>Films</button></li>
-        <li><button>People</button></li>
-        <li><button>Species</button></li>
-        <li><button>Planets</button></li>
+        <li><button onClick={() => { handlePageNavigation("films") }}>Films</button></li>
+        <li><button onClick={() => { handlePageNavigation("people") }}>People</button></li>
+        <li><button onClick={() => { handlePageNavigation("species") }}>Species</button></li>
+        <li><button onClick={() => { handlePageNavigation("planets") }}>Planets</button></li>
       </ul>
     </nav>
   )

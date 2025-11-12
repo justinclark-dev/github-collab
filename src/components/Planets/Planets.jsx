@@ -4,7 +4,6 @@ const Planets = () => {
 
     const [planets, setPlanets] = useState([])
 
-
     useEffect(() => {
         const fetchPlanets = async () => {
             const planetsData = await getPlanets()
@@ -13,8 +12,6 @@ const Planets = () => {
 
             setPlanets(planetsData.results)
         }
-
-
         fetchPlanets()
     }, [])
 
@@ -28,7 +25,6 @@ const Planets = () => {
                         <p>{planet.population}</p>
                         <p>{planet.terrain}</p>
                     </li>
-
                 ))}
             </ul>
         </main>
